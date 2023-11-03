@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #FFE4D6;
+  font-family: "Roboto", sans-serif;
+}
+
+#crud-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+#crud-section .heroBtn {
+  border: none;
+  outline: none;
+  background-color: #B0578D;
+  border-radius: 12px;
+  padding: 5px 15px;
+}
+#crud-section h1 {
+  padding: 20px 0;
+  font-size: 2rem;
+  color: #B0578D;
+}
+#crud-section .formContainer {
+  max-width: 500px;
+}
+#crud-section .formContainer #productForm {
+  background-color: #FACBEA;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+}
+#crud-section .formContainer #productForm .input-box {
+  width: 100%;
+  margin: 50px 0;
+  height: 30px;
+}
+#crud-section .formContainer #productForm .input-box label {
+  display: block;
+}
+#crud-section .formContainer #productForm .input-box input {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 1rem;
+  padding: 20px;
+}
+#crud-section #productTable {
+  background-color: #fff;
+}
+#crud-section #productTable thead th {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 19px;
+  color: #B0578D;
+  background-color: #FACBEA;
+}
+#crud-section #productTable #tbody td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+#crud-section #productTable #tbody td img {
+  max-width: 100px;
+}
+#crud-section #productTable #tbody td button {
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 5px 15px;
+}/*# sourceMappingURL=style.css.map */
